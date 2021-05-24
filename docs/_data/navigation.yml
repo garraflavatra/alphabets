@@ -1,3 +1,5 @@
 main:
+  - title: "Forums"
+    url: https://github.com/garraflavatra/alphabets/discussions
   - title: "GitHub"
     url: https://github.com/garraflavatra/alphabets
