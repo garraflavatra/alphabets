@@ -6,8 +6,8 @@ A tiny JS dependency (<2kb!) which exports many alphabets for many use
 cases.
 
 [![CI](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml)
-![npm](https://img.shields.io/npm/v/alphabets)
-![npm bundle size](https://img.shields.io/bundlephobia/min/alphabets)
+[![npm](https://img.shields.io/npm/v/alphabets)](https://www.npmjs.com/package/alphabets)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/alphabets)](https://www.npmjs.com/package/alphabets)
 
 ## Why would I use this?
 
