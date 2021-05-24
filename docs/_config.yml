@@ -1,0 +1,38 @@
+remote_theme: "mmistakes/minimal-mistakes@4.9.0"
+minimal_mistakes_skin: air
+repository: garraflavatra/alphabets
+
+title: Alphabets
+description: A tiny JS dependency (<800 bytes!) which exports many alphabets for many use cases.
+
+author:
+  name: "garraflavatra"
+  avatar: "https://avatars.githubusercontent.com/u/34036573"
+  email: "romein@vburen.eu"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:romein@vburen.eu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://garraflavatra.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/garraflavatra/alphabet.js"
+
+plugins:
+  - jekyll-include-cache
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/garraflavatra/alphabet.js"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      toc: true
+    
