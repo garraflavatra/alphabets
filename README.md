@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml)
 
-A tiny JS dependency (<800 bytes!) which exports many alphabets for many use
+A tiny JS dependency (<2kb!) which exports many alphabets for many use
 cases.
 
 More information is available in the
@@ -78,6 +78,11 @@ Usage: see [Usage](#usage).
 
 | Name | Export name |
 |------|-------------|
-| Latin | `latin` | 
+| Danish | `danish` |
+| Faroese | `faroese` |
 | Greek (modern) | `greek` |
 | Greek (ancient/polytonic) | `greekPolytonic` |
+| Icelandic | `icelandic` |
+| Latin | `latin` |
+| Norwegian | `norwegian` |
+| Swedish | `swedish` |
