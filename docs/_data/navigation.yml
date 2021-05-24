@@ -3,3 +3,23 @@ main:
     url: https://github.com/garraflavatra/alphabets/discussions
   - title: "GitHub"
     url: https://github.com/garraflavatra/alphabets
+
+docs:
+  - title: About
+    children:
+      - title: Why would I use this?
+        url: /about/why
+      - title: Alternatives
+        url: /about/alternatives
+  - title: Usage
+    children:
+      - title: Installation
+        url: /usage/installation
+      - title: Usage
+        url: /usage/usage
+      - title: Advanced
+        url: /usage/advanced
+  - title: API
+    children:
+      - title: Supported alphabets
+        url: /api/supported-alphabets

@@ -35,4 +35,6 @@ defaults:
     values:
       layout: single
       toc: true
+      sidebar:
+        nav: "docs"
     
