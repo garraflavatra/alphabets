@@ -6,9 +6,6 @@ cases.
 More information is available in the
 [documentation](https://alphabets.romeinvanburen.nl).
 
-For more: see the
-[Alphabets documentation](https://alphabets.romeinvanburen.nl).
-
 ## Why would I use this?
 
 ### Why?
