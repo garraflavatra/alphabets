@@ -5,6 +5,8 @@ title: Alphabets
 A tiny JS dependency (<800 bytes!) which exports many alphabets for many use
 cases.
 
+[![CI status](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml/badge.svg)](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml)
+
 ## Why would I use this?
 
 ### Why?
