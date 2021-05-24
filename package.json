@@ -1,6 +1,6 @@
 {
   "name": "alphabets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Exports many alphabets for many use cases",
   "main": "dist/bundle.js",
   "scripts": {
