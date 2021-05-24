@@ -3,6 +3,9 @@
 A tiny JS dependency (<800 bytes!) which exports many alphabets for many use
 cases.
 
+More information is available in the
+[documentation](https://alphabets.romeinvanburen.nl).
+
 For more: see the
 [Alphabets documentation](https://alphabets.romeinvanburen.nl).
 
