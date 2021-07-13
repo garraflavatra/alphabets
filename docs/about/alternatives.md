@@ -24,6 +24,6 @@ Seems a good alternative, right? But:
   [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) etc.
 * When did the author last update it? Right.
   <figure>
-    <img src="/images/competitors/alphabet-last-publish.png" alt="Last updated: 6 years ago">
+    <img src="https://projects.romeinvanburen.nl/alphabets/images/competitors/alphabet-last-publish.png" alt="Last updated: 6 years ago">
     <figcaption>Hmmm...</figcaption>
   </figure>
