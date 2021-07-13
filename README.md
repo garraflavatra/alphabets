@@ -11,7 +11,7 @@ A tiny JS dependency (<2kb!) which exports many alphabets for many use
 cases.
 
 More information is available in the
-[documentation](https://alphabets.romeinvanburen.nl).
+[documentation](https://projects.romeinvanburen.nl/alphabets/).
 
 ## Why would I use this?
 
