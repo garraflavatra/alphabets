@@ -14,4 +14,5 @@ Usage: see [Usage](#usage).
 | Icelandic | `icelandic` |
 | Latin | `latin` |
 | Norwegian | `norwegian` |
+| Russian | `russian` |
 | Swedish | `swedish` |
