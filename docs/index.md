@@ -12,5 +12,5 @@ cases.
 [![GitHub last commit](https://img.shields.io/github/last-commit/garraflavatra/alphabets)](https://github.com/garraflavatra/alphabets)
 [![Forum](https://img.shields.io/badge/-forum-blue)](https://github.com/garraflavatra/alphabets)
 
-Are you convinced [why to use this](/about/why)? Get started
-[here](/usage/installation)!
+Are you convinced [why to use this](about/why)? Get started
+[here](usage/installation)!
