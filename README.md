@@ -58,7 +58,7 @@ yarn add alphabets
 CDN, if that's more your style:
 
 ```html
-<script src="https://unpkg.com/alphabet@1/dist/bundle.js"></script>
+<script src="https://unpkg.com/alphabets@1/dist/bundle.js"></script>
 ```
 
 ## Usage

@@ -17,5 +17,5 @@ yarn add alphabets
 ## CDN
 
 ```html
-<script src="https://unpkg.com/alphabet@1/dist/bundle.js"></script>
+<script src="https://unpkg.com/alphabets@1/dist/bundle.js"></script>
 ```
