@@ -1,4 +1,4 @@
-Copyright (c) 2020 Romein van Buren <romein@vburen.eu>
+Copyright (c) 2021 Romein van Buren <romein@vburen.eu>
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
