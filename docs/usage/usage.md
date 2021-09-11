@@ -15,4 +15,4 @@ console.log(alphabets.<alphabetYouWantToUse>);
 ```
 
 where `<alphabetYouWantToUse>` is an alphabet this package supports.
-[Here](/api/supported-alphabets) is a list from which you can choose.
+[Here](../api/supported-alphabets) is a list from which you can choose.
