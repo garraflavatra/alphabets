@@ -3,7 +3,7 @@ title: Supported alphabets
 toc: false
 ---
 
-Usage: see [Usage](#usage).
+Usage: see [Usage](../usage/usage).
 
 | Name | Export name |
 |------|-------------|
