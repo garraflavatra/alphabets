@@ -9,15 +9,15 @@
     "url": "https://github.com/garraflavatra/alphabets.git"
   },
 
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Romein van Buren <romein@vburen.eu>",
   "license": "MIT",
 
-  "main": "alphabets.js",
+  "main": "alphabets.cjs",
   "module": "alphabets.mjs",
 
   "files": [
-    "alphabets.js",
+    "alphabets.cjs",
     "alphabets.mjs",
     "alphabets.json"
   ]
