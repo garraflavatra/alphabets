@@ -1,23 +1,10 @@
 # Alphabets
 
-[![CI](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/garraflavatra/alphabets/actions/workflows/test.yml)
-[![npm](https://img.shields.io/npm/v/alphabets)](https://www.npmjs.com/package/alphabets)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/alphabets)](https://www.npmjs.com/package/alphabets)
-[![GitHub last commit](https://img.shields.io/github/last-commit/garraflavatra/alphabets)](https://github.com/garraflavatra/alphabets)
-[![Forum](https://img.shields.io/badge/-forum-blue)](https://github.com/garraflavatra/alphabets)
+A tiny JS dependency which exports many alphabets for many use cases.
 
+## Why
 
-A tiny JS dependency (<2kb!) which exports many alphabets for many use
-cases.
-
-More information is available in the
-[documentation](https://projects.romeinvanburen.nl/alphabets/).
-
-## Why would I use this?
-
-### Why?
-
-I have seen developers doing this:
+I have seen code like this:
 
 ```js
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
@@ -29,39 +16,41 @@ Or worse:
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
-My opinion about this? 🙄. It's ugly, it makes your code less readable
-(read: ugly) and it's simply not something you should want to have in your 
-code! Instead, you should do it like so:
+My opinion about this: it's ugly, and it pollutes your code. Instead, you should do it like so:
 
 ```js
 import { latin } from 'alphabets';
 // or
 const alphabets = require('alphabets');
+
+doSomethingWithTheAlphabet(latin);
 ```
 
-Much cleaner, right? That's why I made this package.
+Much cleaner, right?
 
 ## Installation
 
-Use npm:
+Use npm: [`npm i alphabets`](https://www.npmjs.com/package/alphabets). Or if you prefer Yarn: `yarn add alphabets`.
 
-```bash
-npm install alphabets --save
-```
+## Supported alphabets
 
-Or if you prefer Yarn:
+See below for usage instructions.
 
-```bash
-yarn add alphabets
-```
+| Alphabet | Export name |
+|------|-------------|
+| Danish | `danish` |
+| Faroese | `faroese` |
+| Greek (modern) | `greek` |
+| Greek (ancient/polytonic) | `greekPolytonic` |
+| Icelandic | `icelandic` |
+| Latin (abcdefg etc.) | `latin` |
+| Norwegian | `norwegian` |
+| Russian | `russian` |
+| Swedish | `swedish` |
 
-CDN, if that's more your style:
+## How to use
 
-```html
-<script src="https://unpkg.com/alphabets@1/dist/bundle.js"></script>
-```
-
-## Usage
+Replace `<alphabetYouWantToUse>` with an alphabet identifier this package supports:
 
 ```js
 import { <alphabetYouWantToUse> } from 'alphabets';
@@ -74,21 +63,8 @@ const alphabets = require('alphabets');
 console.log(alphabets.<alphabetYouWantToUse>);
 ```
 
-where `<alphabetYouWantToUse>` is an alphabet this package supports.
-[Here](#supported-alphabets) is a list from which you can choose.
+## Copyright
 
-## Supported alphabets
+(c) 2021-2023 Romein van Buren. Licensed under the MIT license.
 
-Usage: see [Usage](#usage).
-
-| Name | Export name |
-|------|-------------|
-| Danish | `danish` |
-| Faroese | `faroese` |
-| Greek (modern) | `greek` |
-| Greek (ancient/polytonic) | `greekPolytonic` |
-| Icelandic | `icelandic` |
-| Latin | `latin` |
-| Norwegian | `norwegian` |
-| Russian | `russian` |
-| Swedish | `swedish` |
+For the full copyright and license information, please view the [`license.md`](./license.md) file that was distributed with this source code.

@@ -1,24 +1,24 @@
 {
   "name": "alphabets",
-  "version": "1.2.0",
-  "description": "Exports many alphabets for many use cases",
-  "main": "dist/bundle.js",
-  "scripts": {
-    "build": "rollup -c",
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "Romein van Buren <romein@vburen.eu>",
-  "license": "MIT",
-  "homepage": "https://projects.romeinvanburen.nl/alphabets/",
+  "keywords": ["alphabet", "alphabets"],
+  "description": "Many different alphabets, many different use cases, zero depencencies.",
+
+  "homepage": "https://github.com/garraflavatra/alphabets#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/garraflavatra/alphabets.git"
   },
-  "devDependencies": {
-    "jest": "^27.0.1",
-    "rollup": "^2.49.0",
-    "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-terser": "^7.0.2"
-  }
+
+  "version": "2.0.0",
+  "author": "Romein van Buren <romein@vburen.eu>",
+  "license": "MIT",
+
+  "main": "alphabets.js",
+  "module": "alphabets.mjs",
+
+  "files": [
+    "alphabets.js",
+    "alphabets.mjs",
+    "alphabets.json"
+  ]
 }
