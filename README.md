@@ -71,4 +71,4 @@ console.log(alphabets.<alphabetYouWantToUse>);
 
 (c) 2021-2023 Romein van Buren. Licensed under the MIT license.
 
-For the full copyright and license information, please view the [`license.md`](./license.md) file that was distributed with this source code.
+For the full copyright and license information, please view the [`LICENSE.md`](./LICENSE.md) file that was distributed with this source code.
