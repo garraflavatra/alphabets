@@ -47,6 +47,7 @@ See below for usage instructions.
 | Greek (ancient/polytonic) | `greekPolytonic` |
 | Icelandic | `icelandic` |
 | Latin (abcdefg etc.) | `latin` |
+| [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet) | `nato` |
 | Norwegian | `norwegian` |
 | Russian | `russian` |
 | Swedish | `swedish` |
