@@ -13,10 +13,12 @@
   "author": "Romein van Buren <romein@vburen.eu>",
   "license": "MIT",
 
-  "main": "src/alphabets.cjs",
-  "module": "src/alphabets.mjs",
+  "main": "alphabets.cjs",
+  "module": "alphabets.mjs",
 
   "files": [
-    "src/*"
+    "alphabets.cjs",
+    "alphabets.mjs",
+    "alphabets.json"
   ]
 }
