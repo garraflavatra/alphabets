@@ -7,24 +7,22 @@ A tiny JS dependency which exports many alphabets for many use cases.
 
 ## Why
 
-I have seen code like this:
+I have seen [code like this](https://github.com/search?q=%27abcdefghijklmnopqrstuvwxyz%27.split%28%27%27%29+language%3AJavaScript&type=code&l=JavaScript):
 
 ```js
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 ```
 
-Or worse:
+Or [worse](https://github.com/search?q=%5B%22a%22%2C+%22b%22%2C+%22c%22%2C+%22d%22%2C+%22e%22%2C+%22f%22%2C+%22g%22%2C+%22h%22%2C+%22i%22%2C+%22j%22%2C+%22k%22%2C+%22l%22%2C+%22m%22%2C+%22n%22%2C+%22o%22%2C+%22p%22%2C+%22q%22%2C+%22r%22%2C+%22s%22%2C+%22t%22%2C+%22u%22%2C+%22v%22%2C+%22w%22%2C+%22x%22%2C+%22y%22%2C+%22z%22%5D+language%3AJavaScript&type=code&l=JavaScript):
 
 ```js
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
-My opinion about this: it's ugly, and it pollutes your code. Instead, you should do it like so:
+My opinion about this: it's ugly, and it pollutes your code. Instead, you should [do it like so](#how-to-use):
 
 ```js
 import { latin } from 'alphabets';
-// or
-const alphabets = require('alphabets');
 
 doSomethingWithTheAlphabet(latin);
 ```
@@ -33,11 +31,15 @@ Much cleaner, right?
 
 ## Installation
 
-Use npm: [`npm i alphabets`](https://www.npmjs.com/package/alphabets). Or if you prefer Yarn: `yarn add alphabets`.
+Install the [alphabets npm module](https://www.npmjs.com/package/alphabets) using your preferred package manager:
+
+* npm: `npm install alphabets`
+* Yarn: `yarn add alphabets`
+* pnpm: `pnpm add alphabets`
 
 ## Supported alphabets
 
-See below for usage instructions.
+See below for [usage instructions](#how-to-use).
 
 | Alphabet | Export name |
 |------|-------------|
