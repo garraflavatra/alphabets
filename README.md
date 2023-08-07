@@ -1,6 +1,6 @@
 # Alphabets
 
-A tiny JS dependency which exports many alphabets for many use cases.
+A tiny JS package that exports many different alphabets for many different use cases.
 
 [![npm](https://img.shields.io/npm/v/alphabets)](https://www.npmjs.com/package/alphabets)
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
