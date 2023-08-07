@@ -1,24 +1,43 @@
 {
   "name": "alphabets",
-  "keywords": ["alphabet", "alphabets"],
   "description": "A collection of many different alphabets for many different use cases. ",
-
+  "author": "Romein van Buren <romein@vburen.eu>",
+  "version": "2.0.3",
   "homepage": "https://github.com/garraflavatra/alphabets#readme",
+  "license": "MIT",
+  "keywords": [
+    "alphabet",
+    "alphabets"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/garraflavatra/alphabets.git"
   },
-
-  "version": "2.0.3",
-  "author": "Romein van Buren <romein@vburen.eu>",
-  "license": "MIT",
-
   "main": "alphabets.cjs",
   "module": "alphabets.mjs",
-
   "files": [
     "alphabets.cjs",
     "alphabets.mjs",
     "alphabets.json"
-  ]
+  ],
+  "devDependencies": {
+    "@garraflavatra/yeslint": "^1.0.0",
+    "eslint": "^8.46.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/@garraflavatra/yeslint/configs/node.js",
+    "rules": {
+      "strict": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.mjs"
+        ],
+        "parserOptions": {
+          "sourceType": "module"
+        }
+      }
+    ]
+  }
 }
