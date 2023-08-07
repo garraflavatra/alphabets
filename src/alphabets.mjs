@@ -1,1 +1,1 @@
-export * from "./alphabets.json";
+export * from './alphabets.json';
