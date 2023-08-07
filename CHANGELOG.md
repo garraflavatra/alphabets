@@ -1,4 +1,4 @@
-# [Unreleased]
+# [v2.0.4]
 
 Fixed the X-ray entry in the NATO alphabet.
 
@@ -49,3 +49,4 @@ Initial release.
 [v2.0.1]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.1
 [v2.0.2]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.2
 [v2.0.3]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.3
+[v2.0.4]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.4
