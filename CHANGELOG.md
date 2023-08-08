@@ -1,4 +1,4 @@
-## [Unreleased]
+## [v2.0.5]
 
 Added Polish alphabet, plus support for Deno!
 
@@ -54,3 +54,4 @@ Initial release.
 [v2.0.2]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.2
 [v2.0.3]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.3
 [v2.0.4]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.4
+[v2.0.5]: https://github.com/garraflavatra/alphabets/releases/tag/v2.0.5
