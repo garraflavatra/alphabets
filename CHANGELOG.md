@@ -1,6 +1,6 @@
 # [Unreleased]
 
-Added Polish alphabet.
+Added Polish alphabet, plus support for Deno!
 
 # [v2.0.4]
 

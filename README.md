@@ -31,12 +31,20 @@ Install the [alphabets npm module](https://www.npmjs.com/package/alphabets) usin
 * Yarn: `yarn add alphabets`
 * pnpm: `pnpm add alphabets`
 
+You can also use it with [Deno](https://deno.land/) by importing `https://deno.land/x/alphabets/alphabets.mjs`.
+
 ## How to use
 
 Replace `<alphabetYouWantToUse>` with an [alphabet identifier](#included-alphabets) this package exports:
 
 ```js
 import { <alphabetYouWantToUse> } from 'alphabets';
+```
+
+Deno:
+
+```js
+import { <alphabetYouWantToUse> } from 'https://deno.land/x/alphabets/alphabets.mjs';
 ```
 
 or:
