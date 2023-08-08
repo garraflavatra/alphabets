@@ -78,8 +78,14 @@ for (const glyph of latin) {/* ... */}
 
 This is much cleaner and more idiomatic.
 
+## Questions and bugs
+
+Did you find a mistake in an alphabet, or another bug? Please [report it](https://github.com/garraflavatra/alphabets/issues/new) — thank you! I'll try to fix it as soon as possible.
+
+You may use the same issue form for questions, too.
+
 ## Copyright
 
-(c) 2021-2023 Romein van Buren. Licensed under the MIT license.
+(c) 2021-2023 [Romein van Buren](mailto:romein@vburen.nl). Licensed under the MIT license.
 
 For the full copyright and license information, please see the [`LICENSE.md`](./LICENSE.md) file that was distributed with this source code.
