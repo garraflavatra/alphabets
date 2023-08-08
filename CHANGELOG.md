@@ -1,3 +1,7 @@
+# [Unreleased]
+
+Added Polish alphabet.
+
 # [v2.0.4]
 
 Fixed the X-ray entry in the NATO alphabet.
