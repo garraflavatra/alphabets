@@ -1,9 +1,16 @@
 # Alphabets
 
-A tiny JS package that exports many different alphabets for many different use cases.
+Alphabets contains many different alphabets for many different use cases.
 
 [![npm](https://img.shields.io/npm/v/alphabets)](https://www.npmjs.com/package/alphabets)
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+
+- [Included alphabets](#included-alphabets)
+- [How to use](#how-to-use)
+  - [JS module](#js-module)
+  - [JSON file](#json-file)
+- [Motivation](#motivation)
+- [Questions and bugs](#questions-and-bugs)
+- [Copyright](#copyright)
 
 ## Included alphabets
 
@@ -23,7 +30,9 @@ See below for [usage instructions](#how-to-use).
 | `swedish`        | [Swedish](https://en.wikipedia.org/wiki/Swedish_alphabet) |
 | `ukrainian`      | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_alphabet) |
 
-## Installation
+## How to use
+
+### JS module
 
 Install the [alphabets npm module](https://www.npmjs.com/package/alphabets) using your preferred package manager:
 
@@ -32,8 +41,6 @@ Install the [alphabets npm module](https://www.npmjs.com/package/alphabets) usin
 * pnpm: `pnpm add alphabets`
 
 You can also use it with [Deno](https://deno.land/) by importing `https://deno.land/x/alphabets/alphabets.mjs`.
-
-## How to use
 
 Replace `<alphabetYouWantToUse>` with an [alphabet identifier](#included-alphabets) this package exports:
 
@@ -54,7 +61,14 @@ const alphabets = require('alphabets');
 console.log(alphabets.<alphabetYouWantToUse>);
 ```
 
-## Why
+### JSON file
+
+Or load the JSON file with alphabets directly from a CDN:
+
+* https://cdn.jsdelivr.net/npm/alphabets@2/alphabets.json
+* https://unpkg.com/alphabets@2/alphabets.json
+
+## Motivation
 
 I have seen [code like this](https://github.com/search?q=%27abcdefghijklmnopqrstuvwxyz%27.split%28%27%27%29+language%3AJavaScript&type=code&l=JavaScript):
 
@@ -68,7 +82,7 @@ Or [even worse](https://github.com/search?q=%5B%22a%22%2C+%22b%22%2C+%22c%22%2C+
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 ```
 
-My opinion about this: it's ugly, and it pollutes your code. Instead, why not [do it like this](#how-to-use):
+My opinion about this: it's verbose, ugly, and it pollutes your code. Instead, why not [do it like this](#how-to-use):
 
 ```js
 import { latin } from 'alphabets';
