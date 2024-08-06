@@ -89,3 +89,5 @@ You may use the same issue form for questions, too.
 (c) 2021-2023 [Romein van Buren](mailto:romein@vburen.nl). Licensed under the MIT license.
 
 For the full copyright and license information, please see the [`LICENSE.md`](./LICENSE.md) file that was distributed with this source code.
+
+[![Smart Yellow](https://code.smartyellow.net/smartyellow/meta/raw/branch/main/logo.png)](https://www.smartyellow.nl)
